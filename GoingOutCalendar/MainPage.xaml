@@ -7,7 +7,30 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF909090" Offset="0.855"/>
+                <GradientStop Color="White" Offset="1"/>
+                <GradientStop Color="WhiteSmoke" Offset="0.669"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <StackPanel HorizontalAlignment="Left" Height="763" Margin="467,17,0,0" VerticalAlignment="Top" Width="382">
+            <Image Height="338" Source="Assets/Images/1.png">
+            </Image>
+            <StackPanel Height="51">
+                <TextBox PlaceholderText="Admin" FontSize="20" BorderBrush="White" Background="#66B4B4B4" Margin="64,0,66,0"/>
+            </StackPanel>
+            <StackPanel Height="75">
+                <PasswordBox PlaceholderText="Password" FontSize="20" BorderBrush="#FFFAFAFA" Background="#66B4B4B4" Margin="64,0,66,0"/>
+            </StackPanel>
+            <StackPanel Height="56">
+                <Button Content="Login" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="135,0,151,0"/>
+            </StackPanel>
+            <StackPanel>
+                <Button Content="continue an user" HorizontalAlignment="Center" Margin="108,0,126,0" Width="148"></Button>
+            </StackPanel>
+        </StackPanel>
 
     </Grid>
 </Page>
