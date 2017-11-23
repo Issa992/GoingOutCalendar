@@ -33,6 +33,16 @@ namespace GoingOutCalendar
 	        CoreApplicationViewTitleBar coreTitleBar = CoreApplication.GetCurrentView().TitleBar;
 	        coreTitleBar.ExtendViewIntoTitleBar = true;
         }
+
+		private void Button_Click(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(Scenario1));
+		}
+
+		private void Button_Click_1(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(AdminScenario));
+		}
 	}
     
 }

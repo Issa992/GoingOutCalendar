@@ -6,6 +6,13 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
+    <Page.Transitions>
+        <TransitionCollection>
+            <NavigationThemeTransition>
+                <ContinuumNavigationTransitionInfo/>
+            </NavigationThemeTransition>
+        </TransitionCollection>
+    </Page.Transitions>
 
     <Grid>
         <Grid.Background>
@@ -15,7 +22,7 @@
                 <GradientStop Color="WhiteSmoke" Offset="0.669"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <StackPanel HorizontalAlignment="Left" Height="763" Margin="467,17,0,0" VerticalAlignment="Top" Width="382">
+        <StackPanel HorizontalAlignment="Left" Height="682" Margin="440,21,0,0" VerticalAlignment="Top" Width="382">
             <Image Height="338" Source="Assets/Images/1.png">
             </Image>
             <StackPanel Height="51">
@@ -25,10 +32,10 @@
                 <PasswordBox PlaceholderText="Password" FontSize="20" BorderBrush="#FFFAFAFA" Background="#66B4B4B4" Margin="64,0,66,0"/>
             </StackPanel>
             <StackPanel Height="56">
-                <Button Content="Login" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="135,0,151,0"/>
+                <Button Content="Login" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="135,0,151,0" Click="Button_Click_1"/>
             </StackPanel>
             <StackPanel>
-                <Button Content="continue an user" HorizontalAlignment="Center" Margin="108,0,126,0" Width="148"></Button>
+                <Button Content="Continue an user" HorizontalAlignment="Center" Margin="108,0,126,0" Width="148" Click="Button_Click"></Button>
             </StackPanel>
         </StackPanel>
 
