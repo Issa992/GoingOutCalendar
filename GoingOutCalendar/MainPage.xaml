@@ -19,8 +19,7 @@
             <ImageBrush ImageSource="Assets/Images/wallpaper.jpg" Stretch="UniformToFill"/>
         </Grid.Background>
         <StackPanel HorizontalAlignment="Left" Height="682" Margin="440,21,0,0" VerticalAlignment="Top" Width="382">
-            <Image Height="338" Source="Assets/Images/1.png" Opacity="0.8">
-            </Image>
+            <Image Height="270" Source="Assets/Images/Logo.png"/>
             <StackPanel Height="51">
                 <TextBox PlaceholderText="Admin" FontSize="20" BorderBrush="White" Margin="64,0,66,0" BorderThickness="0,0,0,0">
                     <TextBox.Background>
