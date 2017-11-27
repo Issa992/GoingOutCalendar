@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -24,12 +25,21 @@ namespace GoingOutCalendar
 	{
 		public AdminScenario()
 		{
-			this.InitializeComponent();
+			InitializeComponent();
 		}
 
 		private void Button_Click(object sender, RoutedEventArgs e)
 		{
-			this.Frame.Navigate(typeof(MainPage));
+			Frame.Navigate(typeof(MainPage));
 		}
-	}
+        private void Button_Click1(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(CalendarEvent));
+        }
+
+    }
+
+    internal class CalendarEvent
+    {
+    }
 }
