@@ -6,7 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:Custom="using:Windows.UI.Xaml.Controls.Maps"
-    x:Class="GoingOutCalendar.BlankPage1"
+    x:Class="GoingOutCalendar.CalendarEvent"
     mc:Ignorable="d">
 
     <Grid>

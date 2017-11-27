@@ -39,7 +39,5 @@ namespace GoingOutCalendar
 
     }
 
-    internal class CalendarEvent
-    {
-    }
+  
 }
