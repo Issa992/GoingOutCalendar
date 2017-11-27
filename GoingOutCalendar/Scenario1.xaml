@@ -13,17 +13,17 @@
             </NavigationThemeTransition>
         </TransitionCollection>
     </Page.Transitions>
-    
+
     <Grid>
-             <Grid.Background>
+        <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="#FF9FC2C8" Offset="0.855"/>
                 <GradientStop Color="White" Offset="1"/>
                 <GradientStop Color="WhiteSmoke" Offset="0.669"/>
             </LinearGradientBrush>
         </Grid.Background>
-        
-        <Button Content="Main" HorizontalAlignment="Left" Margin="764,254,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+
+        <Button Content="Main" HorizontalAlignment="Left" Margin="684,254,0,0" VerticalAlignment="Top" Click="Button_Click" Height="192" Width="133"/>
 
     </Grid>
 </Page>
